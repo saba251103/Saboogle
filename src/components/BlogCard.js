@@ -53,7 +53,7 @@ const BlogResults = () => {
     <Box sx={{ backgroundColor: "#2d2645", px: { xs: 2, md: 6 }, py: 4 }}>
       {projects.map((project, index) => (
         <Paper
-          key={index}
+          key={index+1}
           elevation={0}
           sx={{
             backgroundColor: "transparent",
