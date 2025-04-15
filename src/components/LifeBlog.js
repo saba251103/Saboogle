@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Grid, Paper,Avatar } from "@mui/material";
+import { Box, Typography, Paper,Avatar } from "@mui/material";
 import img1 from '../assets/img1.png';
 import img2 from '../assets/img2.png';
 import img3 from '../assets/img3.png';
@@ -99,7 +99,7 @@ const ProjectResults = () => {
     <Box sx={{ backgroundColor: "#2d2645", px: { xs: 2, md: 6 }, py: 4 }}>
       {projects.map((project, index) => (
         <Paper
-          key={index}
+          key={index+1}
           elevation={0}
           sx={{
             backgroundColor: "transparent",
