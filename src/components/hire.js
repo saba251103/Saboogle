@@ -139,6 +139,7 @@ const Hire = () => {
                   handleSearchClose();
                   if (item === "Saba's projects") navigate("/project");
                   else if (item === "Life") navigate("/life");
+                  else if (item === "Why hire saba") navigate("/why-hire-saba");
                 }}
               >
                 <SearchIcon sx={{ mr: 1 }} />

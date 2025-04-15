@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Grid, Paper,Avatar } from "@mui/material";
+import { Box, Typography, Paper } from "@mui/material";
 import img1 from '../assets/i1.png';
 import img2 from '../assets/i2.png';
 import img3 from '../assets/i3.png';
@@ -7,7 +7,6 @@ import img4 from '../assets/i4.png';
 import img5 from '../assets/i5.png';
 import img6 from '../assets/i6.png';
 
-import CodeIcon from '@mui/icons-material/Code';
 
 const BlogResults = () => {
   const projects = [
